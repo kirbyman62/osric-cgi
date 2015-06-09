@@ -9,7 +9,7 @@ sub stats_boosts
 		str => 0,
 		dex => 0,
 		con => 0,
-		int => 0,
+		intl => 0,
 		wis => 0,
 		cha => 0,
 	}
@@ -46,7 +46,7 @@ sub racial_limitations
 		str => { min => 6, max => 18 },
 		dex => { min => 3, max => 19 },
 		con => { min => 8, max => 17 },
-		int => { min => 7, max => 18 },
+		intl => { min => 7, max => 18 },
 		wis => { min => 3, max => 18 },
 		cha => { min => 3, max => 18 },
 	}

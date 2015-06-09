@@ -34,7 +34,6 @@ sub new
 	my $class = shift;
 	my $character =
 	{
-		irc => "", # The player's irc nick, not found on the character sheet.
 		personal =>
 		{
 			name => "",
@@ -55,7 +54,7 @@ sub new
 			str => 0,
 			dex => 0,
 			con => 0,
-			int => 0,
+			intl => 0,
 			wis => 0,
 			cha => 0,
 		},
@@ -74,13 +73,6 @@ sub new
 		},
 	};
 	bless $character, $class;
-}
-
-# Sets the player's irc nick:
-sub set_irc
-{
-	my $self = shift;
-	$self->{irc} = shift;
 }
 
 # Generates the 6 major stats:
