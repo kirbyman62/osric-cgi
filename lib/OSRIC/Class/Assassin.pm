@@ -17,7 +17,7 @@ sub minimum_scores
 		str => 12,
 		dex => 12,
 		con => 6,
-		int => 11,
+		intl => 11,
 		wis => 6,
 		cha => 0,
 	}
